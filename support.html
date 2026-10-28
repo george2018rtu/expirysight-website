@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ExpiryLens Support">
+  <title>Support: ExpiryLens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html">
+        <img src="Food Bank Icon.png" alt="ExpiryLens">
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+      <a class="active" href="support.html">Support</a>
+    </nav>
+  </header>
+
+  <main class="page-width support">
+    <div class="page-title">
+      <p class="kicker">SUPPORT</p>
+      <h1>Contact ExpiryLens</h1>
+      <p>Use the form below for bugs, scanning problems, installation help, or privacy requests.</p>
+    </div>
+
+    <div class="support-layout">
+      <section class="support-notes">
+        <div class="support-box">
+          <h2>Before sending</h2>
+          <p>
+            If the scanner is having trouble reading a date, reduce glare, move closer,
+            and keep the printed date clearly visible.
+          </p>
+        </div>
+
+        <div class="support-box">
+          <h2>Camera permission</h2>
+          <p>
+            If camera access was denied, open your device settings, select ExpiryLens,
+            and enable camera permission.
+          </p>
+        </div>
+
+        <div class="support-box">
+          <h2>Privacy</h2>
+          <p>
+            For questions about camera access or support data, read the
+            <a class="text-link" href="privacy.html">Privacy Policy</a>.
+          </p>
+        </div>
+      </section>
+
+      <section class="form-box">
+        <h2>Support form</h2>
+        <p class="form-note">
+          This form is displayed directly on the ExpiryLens website.
+        </p>
+
+        <form action="https://formspree.io/f/xbggonrl" method="POST">
+          <input type="hidden" name="_subject" value="ExpiryLens Support Request">
+
+          <label for="name">Name <span>optional</span></label>
+          <input id="name" name="name" type="text" autocomplete="name">
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+
+          <label for="category">Reason</label>
+          <select id="category" name="category" required>
+            <option value="">Select one</option>
+            <option>Scanning problem</option>
+            <option>Incorrect date</option>
+            <option>Camera permission</option>
+            <option>Installation</option>
+            <option>Bug report</option>
+            <option>Privacy request</option>
+            <option>Other</option>
+          </select>
+
+          <label for="platform">Platform</label>
+          <select id="platform" name="platform">
+            <option value="">Select one</option>
+            <option>iPhone / iPad</option>
+            <option>Android</option>
+            <option>Website</option>
+            <option>Other</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="8" required></textarea>
+
+          <label class="check-row">
+            <input type="checkbox" name="privacy_acknowledged" value="yes" required>
+            <span>
+              I understand that information submitted here will be used to respond to my support request.
+            </span>
+          </label>
+
+          <button type="submit">Send request</button>
+        </form>
+
+        <p class="small">
+          Do not include passwords, financial information, health information, or other sensitive personal data.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>ExpiryLens</span>
+    <div>
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html">Support</a>
+    </div>
+    <span>© 2026</span>
+  </footer>
+</body>
+</html>

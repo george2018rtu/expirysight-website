@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="ExpiryLens helps scan expiry and best-before dates on food products."
+  >
+  <title>ExpiryLens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <a class="logo" href="index.html">
+      <img src="Food Bank Icon.png" alt="ExpiryLens">
+    </a>
+
+    <nav>
+      <a class="active" href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero page-width">
+
+      <div class="hero-copy">
+        <p class="kicker">ExpiryLens</p>
+
+        <h1>ExpiryLens</h1>
+
+        <p class="intro">
+          A fast camera-based tool for identifying expiry and best-before
+          dates on food products.
+        </p>
+
+        <div class="actions">
+          <a class="button primary" href="support.html">Support</a>
+          <a class="button" href="privacy.html">Privacy Policy</a>
+        </div>
+      </div>
+
+
+      <!-- APP PREVIEW -->
+      <div
+        class="scanner-preview"
+        aria-label="ExpiryLens scanner preview"
+      >
+
+        <div class="scanner-top">
+
+          <div class="scanner-mode">
+            ⌖
+          </div>
+
+          <div class="scanner-fps">
+            60 FPS
+          </div>
+
+          <div class="scanner-info">
+            i
+          </div>
+
+        </div>
+
+
+        <div class="scanner-center">
+
+          <div class="scanner-result">
+
+            <div class="scanner-date">
+              2027-05-14
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="scanner-bottom">
+
+          <div class="scanner-expiry-state">
+            NOT EXPIRED
+          </div>
+
+          <div class="scanner-status">
+            DATE CONFIRMED
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- BASIC WORKFLOW -->
+    <section class="info-grid page-width">
+
+      <article class="block">
+
+        <span class="block-number">
+          01
+        </span>
+
+        <h2>
+          Point
+        </h2>
+
+        <p>
+          Point the camera at a printed expiry or best-before date.
+        </p>
+
+      </article>
+
+
+      <article class="block">
+
+        <span class="block-number">
+          02
+        </span>
+
+        <h2>
+          Scan
+        </h2>
+
+        <p>
+          ExpiryLens analyzes visible text and searches for recognized
+          date formats.
+        </p>
+
+      </article>
+
+
+      <article class="block">
+
+        <span class="block-number">
+          03
+        </span>
+
+        <h2>
+          Confirm
+        </h2>
+
+        <p>
+          The detected date is displayed clearly with a simple sorting
+          indicator.
+        </p>
+
+      </article>
+
+    </section>
+
+
+
+    <!-- SCANNING MODES -->
+    <section class="statement page-width">
+
+      <div>
+        <p class="kicker">
+          SCANNING MODES
+        </p>
+
+        <h2>
+          Three ways to scan.
+        </h2>
+      </div>
+
+
+      <div class="feature-grid">
+
+        <article class="feature-box">
+
+          <div class="feature-name">
+            Companion
+          </div>
+
+          <p>
+            Focus directly on a single expiry date for precise scanning
+            and confirmation.
+          </p>
+
+        </article>
+
+
+        <article class="feature-box">
+
+          <div class="feature-name">
+            Scout
+          </div>
+
+          <p>
+            Search a larger portion of the package automatically when the
+            expiry date is difficult to locate.
+          </p>
+
+        </article>
+
+
+        <article class="feature-box">
+
+          <div class="feature-name">
+            Batch
+          </div>
+
+          <p>
+            Detect and track multiple visible expiry dates at the same
+            time for faster sorting.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- PERFORMANCE -->
+    <section class="statement page-width">
+
+      <div>
+        <p class="kicker">
+          PERFORMANCE
+        </p>
+
+        <h2>
+          Designed for fast scanning.
+        </h2>
+      </div>
+
+
+      <div class="feature-grid">
+
+        <article class="feature-box">
+
+          <div class="metric">
+            LIVE
+          </div>
+
+          <div class="feature-name">
+            Camera scanning
+          </div>
+
+          <p>
+            ExpiryLens analyzes incoming camera frames continuously while
+            scanning.
+          </p>
+
+        </article>
+
+
+        <article class="feature-box">
+
+          <div class="metric">
+            ~8 ms
+          </div>
+
+          <div class="feature-name">
+            Internal processing
+          </div>
+
+          <p>
+            Some internal processing stages have completed in as little as
+            approximately 8 milliseconds during testing (using an iPhone from 2021)
+          </p>
+
+        </article>
+
+
+        <article class="feature-box">
+
+          <div class="metric">
+            MULTI-FRAME
+          </div>
+
+          <div class="feature-name">
+            Verification
+          </div>
+
+          <p>
+            Multiple frames can be compared before a date is confirmed,
+            helping reduce incorrect detections.
+          </p>
+
+        </article>
+
+      </div>
+
+
+      <p class="performance-note">
+        Actual performance varies by device, lighting, camera quality,
+        product movement, and label clarity (it doesn't need to be perfect
+        but it can't be in a dark room or super flashy).
+      </p>
+
+    </section>
+
+
+
+    <!-- COLOUR CODING -->
+    <section class="statement page-width">
+
+      <div>
+        <p class="kicker">
+          COLOUR CODING
+        </p>
+
+        <h2>
+          Results at a glance.
+        </h2>
+      </div>
+
+
+      <div class="colour-grid">
+
+        <article class="colour-box">
+
+          <div class="colour-indicator green">
+            GREEN
+          </div>
+
+          <h3>
+            Not expired
+          </h3>
+
+          <p>
+            The printed date is today or in the future.
+          </p>
+
+        </article>
+
+
+        <article class="colour-box">
+
+          <div class="colour-indicator yellow">
+            YELLOW
+          </div>
+
+          <h3>
+            Recently passed
+          </h3>
+
+          <p>
+            The printed date has passed by less than one year.
+          </p>
+
+        </article>
+
+
+        <article class="colour-box">
+
+          <div class="colour-indicator red">
+            RED
+          </div>
+
+          <h3>
+            One year or more
+          </h3>
+
+          <p>
+            The printed date is at least one year in the past.
+          </p>
+
+        </article>
+
+      </div>
+
+
+      <p class="performance-note">
+        Colour coding is intended as a sorting indicator only and does not
+        determine whether food is safe to consume.
+      </p>
+
+    </section>
+
+
+
+    <!-- PRIVACY -->
+    <section class="statement page-width">
+
+      <div>
+
+        <p class="kicker">
+          PRIVACY
+        </p>
+
+        <h2>
+          Built to collect as little as possible.
+        </h2>
+
+      </div>
+
+
+      <p>
+        ExpiryLens does not require an account. Camera access is used for
+        scanning, and the scanner is designed to process images on the
+        device rather than uploading scanned product images to our
+        servers.
+      </p>
+
+
+      <a
+        class="text-link"
+        href="privacy.html"
+      >
+        Read Privacy Policy →
+      </a>
+
+    </section>
+
+  </main>
+
+
+
+  <footer class="footer">
+
+    <span>
+      ExpiryLens
+    </span>
+
+    <div>
+      <a href="privacy.html">
+        Privacy
+      </a>
+
+      <a href="support.html">
+        Support
+      </a>
+    </div>
+
+    <span>
+      © 2026
+    </span>
+
+  </footer>
+
+</body>
+</html>
